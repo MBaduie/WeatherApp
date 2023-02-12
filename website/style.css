@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin:0;
+}
 body{
     background: #fffff8;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -11,17 +15,24 @@ body{
     background: #f23557;
     color: #f0d43a;
     justify-content: center;
-    grid-gap: 1em;
+    grid-gap: 1rem;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
 .holder{
-
+    margin: 0;
+    /* background: #f12f2f; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 25px;
 }
 
 .entry{
-    background: rgba(59, 74, 107, .4);
+    /* background: rgba(59, 74, 107, .4); */
 }
 
 #entryHolder{
@@ -41,6 +52,7 @@ body{
 }
 
 .headline {
+    background: #22b2da;
 
 }
 .title{
@@ -65,9 +77,11 @@ input{
 }
 
 button{
+    display: block;
     width: 400px;
     height: 100px;
     background: #3b4a6b;
+    padding: 1rem 0;
     color: #f0d43a;
     font-size: 26px;
     font-family: 'Oswald', sans-serif;
